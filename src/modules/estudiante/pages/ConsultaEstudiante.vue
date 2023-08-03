@@ -3,7 +3,9 @@
 </template>
 
 <script>
-import DatosEstudiante from '../components/DatosEstudiante.vue'
+import DatosEstudiante from '../components/DatosBuscarEstudiante.vue';
+
+
 
     export default {
         components:{

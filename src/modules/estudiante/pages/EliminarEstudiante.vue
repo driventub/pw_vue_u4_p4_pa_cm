@@ -13,6 +13,6 @@ import DatosEliminarEstudianteVue from '../components/DatosEliminarEstudiante.vu
     }
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
 
 </style>
