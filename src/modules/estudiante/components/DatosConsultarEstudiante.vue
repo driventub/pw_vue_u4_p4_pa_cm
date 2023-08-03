@@ -1,10 +1,16 @@
 <template>
-  <input v-model="cedula" type="text" />
+
+  <div class="buscar">
+    <input v-model="cedula" type="text" />
   <button @click="consultaEstudiantes">Consultar</button>
-  <label for="">Nombre</label>
-  <input v-model="nombre" type="text" />
-  <label for="">Apellido</label>
-  <input v-model="apellido" type="text" />
+  </div>
+  <div class="resto">
+    <label for="">Nombre</label>
+    <input v-model="nombre" type="text" />
+    <label for="">Apellido</label>
+    <input v-model="apellido" type="text" />
+  </div>
+  
 </template>
 
 <script>
@@ -30,4 +36,17 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .buscar{
+    margin: 10px;
+  }
+
+  input{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  button{
+    font-size: large;
+  }
+</style>

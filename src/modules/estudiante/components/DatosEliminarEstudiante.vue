@@ -2,6 +2,8 @@
     <label for="">Cedula</label>
         <input v-model="cedula" type="text" />
         <button @click="consultaEstudiantes">Verificar</button>
+
+        <h3>{{ nombre }} {{ apellido }}</h3>
         <button @click="eliminarEstudiante" v-if="verif">Eliminar</button>
 
 </template>
@@ -20,18 +22,23 @@ import {obtenerEstudianteFachada} from '../helpers/EstudianteCliente'
         },
         methods:{
             async eliminarEstudiante(){
+                this.verif=false
                 await eliminarEstudianteFachada(this.cedula)
             },
             async consultaEstudiantes() {
                 const data = await obtenerEstudianteFachada(this.cedula);
-            this.nombre = data.nombre;
-            this.apellido = data.apellido;
-    },
+                this.nombre = data.nombre;
+                this.apellido = data.apellido;
+                this.verif=true;
+            },
         }
 
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+    input{
+        margin-left: 5px;
+        margin-left: 5px;
+    }
 </style>

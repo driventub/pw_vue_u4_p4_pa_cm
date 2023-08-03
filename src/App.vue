@@ -1,32 +1,33 @@
 <template>
-  <Estudiante/>
-  <div class="algo"></div>
-  <GuardaEstudiante/>
-  <div class="algo"></div>
-  <ActualizarEstudiante/>
-  <div class="algo"></div>
-  <EliminarEstudianteVue/>
+  <img src="./modules/estudiante/img/crud.jpeg" alt="">
+  <div class="navBar">
+    <NavBar/>
+  </div>
+  <div class="contenido">
+    <router-view/>
+  </div>
+  
 </template>
 
 <script>
-import Estudiante from './modules/estudiante/pages/ConsultaEstudiante.vue'
-import GuardaEstudiante from './modules/estudiante/pages/GuardaEstudiante.vue';
-import ActualizarEstudiante from './modules/estudiante/pages/ActualizarEstudiante.vue';
-import EliminarEstudianteVue from './modules/estudiante/pages/EliminarEstudiante.vue';
+import NavBar from './modules/estudiante/components/NavBar.vue';
 
 export default {
   name: 'App',
   components: {
-    Estudiante,
-    GuardaEstudiante,
-    ActualizarEstudiante,
-    EliminarEstudianteVue
-
-  }
+    NavBar,
+}
 }
 </script>
 
 <style>
+
+img{
+  weight:100px ;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +36,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.algo{
-  margin: 100px;
+
+.navBar{
+  margin-bottom: 10px;
 }
+
 </style>

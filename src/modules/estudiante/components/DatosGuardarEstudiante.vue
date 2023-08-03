@@ -7,7 +7,10 @@
         <input v-model="nombre" type="text" />
         <label for="">Apellido</label>
         <input v-model="apellido" type="text" />
-        <button @click="guardarEstudiante">Guardar</button>
+
+        <div>
+            <button @click="guardarEstudiante">Guardar</button>
+        </div>
     </div>
 </template>
 
@@ -38,5 +41,15 @@ import { ingresarEstudianteFachada } from '../helpers/EstudianteCliente'
 </script>
 
 <style scoped>
+
+    input{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    button{
+        margin-top: 10px;
+        font-size: large;
+    }
 
 </style>
