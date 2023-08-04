@@ -31,3 +31,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - 1 .then(r=>r.data) primera diferencia con axios
 - 2.- no ocupa usar el await ya que de por si lo incluye.
+
+## Taller 37
+
+Cuando uno pregunta al servidor, la respuesta es una promesa (Promise), y el que pregunta se queda esperando (await)
+
+para agregar atributos path variables dentro del router se tiene que cambiar el path con `:path`

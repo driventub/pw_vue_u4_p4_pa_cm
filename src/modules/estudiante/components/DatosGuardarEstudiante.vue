@@ -33,7 +33,8 @@ import { ingresarEstudianteFachada } from '../helpers/EstudianteCliente'
                     apellido:this.apellido,
                     provincia:'Pichincha',
                 }
-                await ingresarEstudianteFachada(data);
+                ingresarEstudianteFachada(data);
+                console.log("Estudiante insertado" + data);
             }
             
         }

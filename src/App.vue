@@ -23,7 +23,7 @@ export default {
 <style>
 
 img{
-  weight:100px ;
+ 
   height: 100px;
   margin-bottom: 30px;
 }
@@ -39,6 +39,12 @@ img{
 
 .navBar{
   margin-bottom: 10px;
+}
+
+.contenido{
+  border-style: groove;
+  padding: 30px;
+  border-color: cadetblue;
 }
 
 </style>
