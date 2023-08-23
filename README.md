@@ -41,3 +41,44 @@ para agregar atributos path variables dentro del router se tiene que cambiar el 
 # Taller 45
 
 Técnica del diseño que permite crear páginas web con elementos que se acoplan al tamaño de las pantallas
+
+1. Aplicar viewport
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+
+2. Utilizar siempre medidas basadas en porcentajes.
+    
+    2.1 Aplicar en el ancho de los elementos, unidades de porcentaje.
+
+```css
+width: 100%
+```
+
+
+
+    2.2 Debemos aplicar valores máximos a los elementos(limitar que tanto va a crecer de manera horizontal mi elemento)
+
+```css
+max-width: 100px
+```
+    2.3 Aplicar responsive a los textos
+
+3. Aplicar Media Query
+    Define rangos de porcentajes de nuestras pantallas, con condiciones dada la pantalla
+```css
+/* desde 1000px hacia arriba  */
+@media screen and (min-width: 1000px){
+
+}
+@media screen and (max-width: 6000px){
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+
+}
+
+```

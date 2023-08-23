@@ -23,7 +23,7 @@ export const eliminarEstudianteFachada=(cedula)=>{
 //----------------------------------------------------------------------
 
 const head ={
-    "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkyNzUwNzgyLCJleHAiOjE2OTQ3NTA3ODJ9.yUB7QMthgm71fvZTKFvXTSzR8PPQ9ylEo2LHBygw8TmH6BxeaJy08vPIPY6XlKjKSO5FvNxkK7bNf2tXRdcnKw",
+    "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkyNzYxODAzLCJleHAiOjE2OTQ3NjE4MDN9.dDeB7KEyhSjdjOlaJ8gNzL6PEkbA_MKtV_-itSBO4USgGacosKKoMA1cA3Jj3965mSeqUXZLubPyUmi-nA9TaA",
     "Mensaje": "Valor1"
 }
 
@@ -48,7 +48,7 @@ const eliminarEstudianteAPI=(cedula)=>{
 const obtenerEstudianteAxios=async(cedula)=>{
    
     const data = axios.get(`http://localhost:8080/API/v1.0/Matricula/estudiantes/${cedula}`,{headers:{
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkyNzUwNzgyLCJleHAiOjE2OTQ3NTA3ODJ9.yUB7QMthgm71fvZTKFvXTSzR8PPQ9ylEo2LHBygw8TmH6BxeaJy08vPIPY6XlKjKSO5FvNxkK7bNf2tXRdcnKw",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkyNzYxODAzLCJleHAiOjE2OTQ3NjE4MDN9.dDeB7KEyhSjdjOlaJ8gNzL6PEkbA_MKtV_-itSBO4USgGacosKKoMA1cA3Jj3965mSeqUXZLubPyUmi-nA9TaA",
         "Mensaje": "Valor1"
     }}).then(r=>r.data);
     console.log("desde el metodo>>>> " + data);
