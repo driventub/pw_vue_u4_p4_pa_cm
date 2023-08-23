@@ -1,7 +1,7 @@
 <template>
   <div class="buscar">
     <input v-model="cedula" type="text" />
-    <button @click="consultaEstudiantes">Consultar</button>
+    <button class="btn btn-warning" @click="consultaEstudiantes" >Consultar</button>
   </div>
   <div class="resto">
     <label for="">Nombre</label>

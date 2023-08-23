@@ -10,7 +10,7 @@
     <input v-model="apellido" type="text" />
 
     <div>
-    <button @click="actualizarEstudiante">Actualizar</button>
+    <button class="btn btn-warning" @click="actualizarEstudiante" >Actualizar</button>
     </div>
 </template>
 

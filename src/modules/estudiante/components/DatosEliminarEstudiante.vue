@@ -1,10 +1,10 @@
 <template>
     <label for="">Cedula</label>
         <input v-model="cedula" type="text" />
-        <button @click="consultaEstudiantes">Verificar</button>
+        <button class="btn btn-warning" @click="consultaEstudiantes">Verificar</button>
 
         <h3>{{ nombre }} {{ apellido }}</h3>
-        <button @click="eliminarEstudiante" v-if="verif">Eliminar</button>
+        <button class="btn btn-danger" @click="eliminarEstudiante" v-if="verif">Eliminar</button>
 
 </template>
 
