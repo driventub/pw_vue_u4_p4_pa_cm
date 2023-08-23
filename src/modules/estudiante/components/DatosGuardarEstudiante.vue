@@ -1,15 +1,15 @@
 <template>
-    <div>
+    <div >
         <label for="">Cedula</label>
-        <input v-model="cedula" type="text" />
+        <input class="form-control" v-model="cedula" type="text" />
         
         <label for="">Nombre</label>
-        <input v-model="nombre" type="text" />
-        <label for="">Apellido</label>
-        <input v-model="apellido" type="text" />
+        <input class="form-control" v-model="nombre" type="text" />
+        <label  for="">Apellido</label>
+        <input class="form-control" v-model="apellido" type="text" />
 
         <div>
-            <button @click="guardarEstudiante">Guardar</button>
+            <button class="btn btn-primary" @click="guardarEstudiante">Guardar</button>
         </div>
     </div>
 </template>
@@ -48,9 +48,6 @@ import { ingresarEstudianteFachada } from '../helpers/EstudianteCliente'
         margin-right: 5px;
     }
 
-    button{
-        margin-top: 10px;
-        font-size: large;
-    }
+   
 
 </style>
