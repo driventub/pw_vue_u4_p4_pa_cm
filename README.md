@@ -37,3 +37,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Cuando uno pregunta al servidor, la respuesta es una promesa (Promise), y el que pregunta se queda esperando (await)
 
 para agregar atributos path variables dentro del router se tiene que cambiar el path con `:path`
+
+# Taller 45
+
+Técnica del diseño que permite crear páginas web con elementos que se acoplan al tamaño de las pantallas
