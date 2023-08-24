@@ -31,7 +31,7 @@ export const eliminarEstudianteFachada=(cedula)=>{
 
 const obtenerEstudianteAPI=async(cedula)=>{
     const headers= {
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyNzUwMDg2LCJleHAiOjE2OTQ3NTAwODZ9.vK2oHt3vMlcnzIYx312CToy1eQaVWj5FP7StDt1aQ-jtJfYiFPUOKSa-lOULRgQGTSxMo3w8vBAmxWI0VF7C7A",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyODM5OTgyLCJleHAiOjE2OTQ4Mzk5ODJ9.-iP7BTP4N-bW-lxD_uMugqCCXStyjkHAbFYFcULa9Se5_Yyy1zQb5jzmkN9-kwof9jKUEdt4Jv1JiulfUt_1UA",
         "Mensaje": "Valor1"
     }
 
@@ -42,7 +42,7 @@ const obtenerEstudianteAPI=async(cedula)=>{
 
 const ingresarEstudianteAPI=(bodyEstudiante)=>{
     const headers= {
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyNzUwMDg2LCJleHAiOjE2OTQ3NTAwODZ9.vK2oHt3vMlcnzIYx312CToy1eQaVWj5FP7StDt1aQ-jtJfYiFPUOKSa-lOULRgQGTSxMo3w8vBAmxWI0VF7C7A",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyODM5OTgyLCJleHAiOjE2OTQ4Mzk5ODJ9.-iP7BTP4N-bW-lxD_uMugqCCXStyjkHAbFYFcULa9Se5_Yyy1zQb5jzmkN9-kwof9jKUEdt4Jv1JiulfUt_1UA",
         "Mensaje": "Valor1"
     }
 
@@ -51,7 +51,7 @@ const ingresarEstudianteAPI=(bodyEstudiante)=>{
 
 const actualizarEstudianteAPI=(bodyEstudiante,id)=>{
     const headers= {
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyNzUwMDg2LCJleHAiOjE2OTQ3NTAwODZ9.vK2oHt3vMlcnzIYx312CToy1eQaVWj5FP7StDt1aQ-jtJfYiFPUOKSa-lOULRgQGTSxMo3w8vBAmxWI0VF7C7A",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyODM5OTgyLCJleHAiOjE2OTQ4Mzk5ODJ9.-iP7BTP4N-bW-lxD_uMugqCCXStyjkHAbFYFcULa9Se5_Yyy1zQb5jzmkN9-kwof9jKUEdt4Jv1JiulfUt_1UA",
         "Mensaje": "Valor1"
     }
 
@@ -60,7 +60,7 @@ const actualizarEstudianteAPI=(bodyEstudiante,id)=>{
 
 const eliminarEstudianteAPI=(cedula)=>{
     const headers= {
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyNzUwMDg2LCJleHAiOjE2OTQ3NTAwODZ9.vK2oHt3vMlcnzIYx312CToy1eQaVWj5FP7StDt1aQ-jtJfYiFPUOKSa-lOULRgQGTSxMo3w8vBAmxWI0VF7C7A",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyODM5OTgyLCJleHAiOjE2OTQ4Mzk5ODJ9.-iP7BTP4N-bW-lxD_uMugqCCXStyjkHAbFYFcULa9Se5_Yyy1zQb5jzmkN9-kwof9jKUEdt4Jv1JiulfUt_1UA",
         "Mensaje": "Valor1"
     }
 
@@ -69,7 +69,7 @@ const eliminarEstudianteAPI=(cedula)=>{
 
 const obtenerEstudianteAxios=async(cedula)=>{
     const headers= {
-        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyNzUwMDg2LCJleHAiOjE2OTQ3NTAwODZ9.vK2oHt3vMlcnzIYx312CToy1eQaVWj5FP7StDt1aQ-jtJfYiFPUOKSa-lOULRgQGTSxMo3w8vBAmxWI0VF7C7A",
+        "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c3VhcmlvIiwiaWF0IjoxNjkyODM5OTgyLCJleHAiOjE2OTQ4Mzk5ODJ9.-iP7BTP4N-bW-lxD_uMugqCCXStyjkHAbFYFcULa9Se5_Yyy1zQb5jzmkN9-kwof9jKUEdt4Jv1JiulfUt_1UA",
         "Mensaje": "Valor1"
     }
 
